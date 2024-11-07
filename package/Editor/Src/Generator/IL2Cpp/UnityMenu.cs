@@ -38,7 +38,7 @@ namespace PuertsIl2cpp.Editor
 #if CPP_OUTPUT_TO_NATIVE_SRC
                 var saveTo = Path.Combine(Application.dataPath, "core/upm/Plugins/puerts_il2cpp/");
 #elif PUERTS_CPP_OUTPUT_TO_NATIVE_SRC_UPM
-                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.tencent.puerts.core/"), "Plugins/puerts_il2cpp/");
+                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.gamefantasy.puerts.core/"), "Plugins/puerts_il2cpp/");
 #else
                 var saveTo = Path.Combine(Puerts.Configure.GetCodeOutputDirectory(), "Plugins/puerts_il2cpp/");
 #endif
@@ -54,7 +54,7 @@ namespace PuertsIl2cpp.Editor
 #if CPP_OUTPUT_TO_NATIVE_SRC
                 var saveTo = Path.Combine(Application.dataPath, "..", "native_src_il2cpp", "Src");
 #elif PUERTS_CPP_OUTPUT_TO_NATIVE_SRC_UPM
-                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.tencent.puerts.core/"), "../../../", "native_src_il2cpp", "Src");
+                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.gamefantasy.puerts.core/"), "../../../", "native_src_il2cpp", "Src");
 #else
                 var saveTo = Puerts.Configure.GetCodeOutputDirectory();
 #endif
@@ -71,7 +71,7 @@ namespace PuertsIl2cpp.Editor
 #if CPP_OUTPUT_TO_NATIVE_SRC
                 var saveTo = Path.Combine(Application.dataPath, "..", "native_src_il2cpp", "Src");
 #elif PUERTS_CPP_OUTPUT_TO_NATIVE_SRC_UPM
-                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.tencent.puerts.core/"), "../../../", "native_src_il2cpp", "Src");
+                var saveTo = Path.Combine(Path.GetFullPath("Packages/com.gamefantasy.puerts.core/"), "../../../", "native_src_il2cpp", "Src");
 #else
                 var saveTo = Puerts.Configure.GetCodeOutputDirectory();
 #endif

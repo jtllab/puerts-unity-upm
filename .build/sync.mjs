@@ -74,16 +74,17 @@ async function run() {
 }
 
 const defaultPuertsPackageJSON = {
-    "name": "com.tencent.puerts.core",
+    "name": "com.gamefantasy.puerts.core",
     "displayName": "Puerts",
+    "version": "2.1.1",
     "description": "Write your game with TypeScript in UE4 or Unity. Puerts can be pronounced as pu-erh TS（普洱TS）",
     "keywords": [
         "Script"
     ],
     "author": {
-        "name": "Tencent Puerts Group",
-        "email": "zombieyang@tencent.com",
-        "url": "https://github.com/puerts"
+        "name": "GameFantasy",
+        "email": "liasece@gmail.com.com",
+        "url": "https://github.com/liasece"
     },
     "category": "Libraries"
 };
