@@ -1,8 +1,12 @@
 {
-    "name": "com.tencent.puerts.core",
+    "name": "com.gamefantasy.puerts.core.Editor",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "com.gamefantasy.puerts.core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
